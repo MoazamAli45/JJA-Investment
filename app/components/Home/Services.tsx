@@ -71,10 +71,10 @@ const Services = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mt-[50px] sm:mt-[90px] gap-[20px]">
           {services.map((service, index) => (
             <div className="flex flex-col items-center gap-[10px] " key={index}>
-              <div className=" flex justify-center items-center">
+              <div className=" flex  ">
                 <Image src={service.icon} alt="icon" width={50} height={50} />
               </div>
-              <Typography.PLarge styles="text-light-black">
+              <Typography.PLarge styles="text-light-black text-center font-medium">
                 {service.text}
               </Typography.PLarge>
             </div>

@@ -11,7 +11,7 @@ interface FeatureCardProps {
 const FeatureCard: React.FC<FeatureCardProps> = ({ image, text, heading }) => {
   return (
     <div className="flex flex-col gap-[20px] items-center md:items-start">
-      <div className="relative w-[250px]  md:w-[330px] h-[250px] max-w-[350px]">
+      <div className="relative w-full  md:w-[330px] xl:w-full  h-[250px] md:max-w-[350px] xl:max-w-[420px]">
         {" "}
         <Image
           src={image}
@@ -21,7 +21,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ image, text, heading }) => {
           className="w-full h-full object-cover rounded-[5px]"
         />
       </div>
-      <Typography.H3>{heading}</Typography.H3>
+      <Typography.H3 styles="justify-self-start self-start font-bold">
+        {heading}
+      </Typography.H3>
       <Typography.PSmall styles="text-gray">{text}</Typography.PSmall>
     </div>
   );

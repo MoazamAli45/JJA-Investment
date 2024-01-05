@@ -62,11 +62,12 @@ const Footer = () => {
               </Typography.H3>
               <ul className="flex flex-col gap-[20px]">
                 {links.map((link, index) => (
-                  <Link href={link.path} key={index}>
-                    <Typography.PSmall styles="text-off-white font-normal">
-                      {link.title}
-                    </Typography.PSmall>
-                  </Link>
+                  <Typography.PSmall
+                    styles="text-off-white font-normal"
+                    key={index}
+                  >
+                    <Link href={link.path}>{link.title}</Link>
+                  </Typography.PSmall>
                 ))}
               </ul>
             </div>
@@ -76,14 +77,20 @@ const Footer = () => {
               </Typography.H3>
               <ul className="flex flex-col gap-[20px]">
                 <Typography.PLarge styles="text-off-white font-normal md:w-[80%]">
-                  18 Types of Hidden Income from Australian Real Estate
+                  <Link href="/">
+                    18 Types of Hidden Income from Australian Real Estate
+                  </Link>
                 </Typography.PLarge>
                 <Typography.PLarge styles="text-off-white font-normal md:w-[80%]">
-                  Make Your House Earn an Extra $10,000 Each Year
+                  <Link href="/">
+                    Make Your House Earn an Extra $10,000 Each Year
+                  </Link>
                 </Typography.PLarge>
                 <Typography.PLarge styles="text-off-white font-normal md:w-[80%]">
-                  18 Indicators You Must Consider Before Buying a House in
-                  Australia
+                  <Link href="/">
+                    18 Indicators You Must Consider Before Buying a House in
+                    Australia
+                  </Link>
                 </Typography.PLarge>
               </ul>
             </div>

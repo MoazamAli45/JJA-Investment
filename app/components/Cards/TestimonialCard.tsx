@@ -15,8 +15,8 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   location,
 }) => {
   return (
-    <div className="flex flex-col gap-[20px]">
-      <div className="flex justify-between">
+    <div className="flex flex-col gap-[20px] px-[30px] py-[40px] testimonial-box-bg ">
+      <div className="flex justify-between ">
         <Image src="/google.svg" alt="google " width={150} height={75} />
         <Image
           src={"/inverted-commas.svg"}

@@ -10,7 +10,7 @@ const Hero = () => {
       <Wrapper>
         <div className="flex relative">
           <div className="hidden md:block md:basis-[30%] bg-white "></div>
-          <div className="relative flex-1 max-w-[950px] w-full h-[480px]">
+          <div className="relative flex-1 max-w-[950px] w-full h-[430px] md:h-[650px]">
             <Image
               src={"/hero.png"}
               alt="hero"
@@ -21,7 +21,7 @@ const Hero = () => {
             />
           </div>
           {/*  TEAL COLOR BOX  */}
-          <div className=" hidden md:block  bg-teal w-[500px] max-w-[590px] md:h-[430px] md:min-h-[400px] z-[10] absolute  md:top-[25px] md:left-[20px] px-[30px] py-[35px]  ">
+          <div className=" hidden md:block  bg-teal w-[500px] max-w-[590px] md:h-[530px] md:min-h-[400px] z-[10] absolute  md:top-[50px] md:left-[20px] px-[30px] py-[70px]  ">
             <div className="flex gap-[10px] flex-col">
               <div className="  p-[10px] bg-[rgba(250,249,246,.15)] rounded-[5px] sm:w-[90%]">
                 <Typography.PSmall styles="text-off-white">
