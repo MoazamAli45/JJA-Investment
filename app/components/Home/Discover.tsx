@@ -50,11 +50,11 @@ const Discover = () => {
             <Typography.H2>
               A Property Manager That Can Answer you…
             </Typography.H2>
-            <div className="flex gap-[10px] my-[20px] flex-wrap gap-y-[20px] items-center justify-center sm:justify-start">
+            <div className="flex gap-[10px] my-[20px]  flex-wrap gap-y-[20px] items-center justify-center sm:justify-start">
               {links.map((link, index) => (
                 <div
                   key={index}
-                  className="flex flex-col gap-[20px]  link-box  h-[150px] w-[150px] p-[20px]"
+                  className="flex flex-col gap-[20px]  link-box  h-[150px] w-[150px] p-[20px] items-center sm:items-start "
                 >
                   <Image
                     src="/document.svg"
