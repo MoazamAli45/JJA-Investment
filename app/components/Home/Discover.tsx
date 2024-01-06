@@ -52,7 +52,7 @@ const Discover = () => {
             </Typography.H2>
             <div className="flex gap-[10px] my-[20px]  flex-wrap gap-y-[20px] items-center justify-center sm:justify-start">
               {links.map((link, index) => (
-                <div
+                <button
                   key={index}
                   className="flex flex-col gap-[20px]  link-box  h-[150px] w-[150px] p-[20px] items-center sm:items-start "
                 >
@@ -65,11 +65,11 @@ const Discover = () => {
                   />
                   <Link
                     href={"/"}
-                    className="text-teal hover:text-[rgba(0, 80, 80, 1)] underline text-[10px]   link-bg "
+                    className="text-teal hover:text-[rgba(0, 80, 80, 1)] underline text-[10px]   link-bg md:text-start "
                   >
                     {link.text}
                   </Link>
-                </div>
+                </button>
               ))}
             </div>
           </div>

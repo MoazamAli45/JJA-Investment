@@ -97,6 +97,7 @@ const Footer = () => {
           </div>
         </div>
         {/*  BOTTOM */}
+        {/*
         <div className="flex flex-col gap-y-[10px] xs:flex-row items-center justify-between pt-[20px] pb-[30px] border-t-[1px] border-solid border-off-white ">
           <Typography.PSmall styles="text-off-white font-normal">
             © Copyright & Create with love by Azis Maliek
@@ -110,6 +111,7 @@ const Footer = () => {
             </Typography.PSmall>
           </div>
         </div>
+                */}
       </Wrapper>
     </footer>
   );
