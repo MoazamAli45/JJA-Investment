@@ -36,7 +36,7 @@ const Features = () => {
         <Typography.H2 styles="text-center text-great-black">
           Featured Case Study
         </Typography.H2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-[20px] gap-y-[30px] my-[30px] items-center  ">
+        <div className="grid grid-cols-1 custom-md:grid-cols-2 lg:grid-cols-3 gap-x-[20px] gap-y-[30px] my-[30px] items-center  ">
           {features.map((feature, index) => (
             <FeatureCard
               key={index}

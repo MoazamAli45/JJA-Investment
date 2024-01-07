@@ -38,7 +38,7 @@ const Discover = () => {
   return (
     <section className="my-[60px] md:my-[90px]">
       <Wrapper styles="md:px-16">
-        <div className="flex flex-col  md:flex-row gap-y-[20px]">
+        <div className="flex flex-col flex-wrap lg:flex-nowrap  md:flex-row gap-y-[20px] gap-x-[20px]">
           {/* LEFT */}
           <div className="flex flex-col gap-[20px]">
             {/*   TODO ALSO ASK FROM CLIENT ABOUT THIS BACKGROUND */}

@@ -21,7 +21,7 @@ const Hero = () => {
             />
           </div>
           {/*  TEAL COLOR BOX  */}
-          <div className=" hidden md:block  bg-teal w-[500px] max-w-[590px] md:h-[530px] md:min-h-[400px] z-[10] absolute  md:top-[50px] md:left-0 px-[30px] py-[70px]  ">
+          <div className=" hidden md:block  bg-teal w-[570px] max-w-[590px] md:h-[530px] md:min-h-[400px] z-[10] absolute  md:top-[50px] md:left-0 px-[48px] py-[68px]  ">
             <div className="flex gap-[10px] flex-col">
               <div className="  py-[10px] px-[15px] bg-[rgba(250,249,246,.15)] rounded-[5px] max-w-max">
                 <Typography.PSmall styles="text-off-white">
