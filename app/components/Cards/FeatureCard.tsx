@@ -11,7 +11,7 @@ interface FeatureCardProps {
 const FeatureCard: React.FC<FeatureCardProps> = ({ image, text, heading }) => {
   return (
     <div className="flex flex-col gap-[20px] items-center md:items-start">
-      <div className="relative w-full  h-[300px] custom-md:w-[330px] xl:w-full  custom-md:h-[250px] custom-md:max-w-[350px] xl:max-w-[420px]">
+      <div className="relative w-full  h-[300px]  xl:w-full  custom-md:h-[280px] custom-md:max-w-[450px] ">
         {" "}
         <Image
           src={image}
